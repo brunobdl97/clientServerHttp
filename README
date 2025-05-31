@@ -16,14 +16,14 @@ Clone o repositório e instale as dependências:
 git clone https://github.com/brunobdl97/clientServerHttp.git
 cd clientServerHttp
 go mod tidy
-
+```
 ## Inicialização do Servidor
 No diretório server, execute:
 
 ```sh
 cd server
 go run main.go
-
+```
 O servidor estará disponível em http://localhost:8080/cotacao.
 
 
@@ -33,7 +33,7 @@ Em outro terminal, no diretório client, execute:
 ```sh
 cd ../client
 go run main.go
-
+```
 O cliente irá requisitar a cotação do servidor e salvar o valor no arquivo cotacao.txt.
 
 ## Observações
