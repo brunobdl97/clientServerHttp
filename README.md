@@ -1,5 +1,5 @@
 ## Projeto Cotação Dólar (Go)
-<! --
+
 Este projeto consiste em um servidor HTTP que fornece a cotação do dólar e um cliente que consome esse endpoint e salva o valor em um arquivo.
 
 ## Pré-requisitos
@@ -39,4 +39,3 @@ O cliente irá requisitar a cotação do servidor e salvar o valor no arquivo co
 ## Observações
 - O banco de dados SQLite será criado automaticamente como quote.db no diretório do servidor.
 - O arquivo cotacao.txt será criado no diretório do cliente.
--->
