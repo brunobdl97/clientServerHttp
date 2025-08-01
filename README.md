@@ -35,7 +35,7 @@ O servidor estará disponível em:
 ## 📡 Executando o Cliente
 Em outro terminal, acesse o diretório client e execute:
 ```bash
-cd ../client
+cd ./clientServerHttp/client
 go run main.go
 ```
 O cliente irá requisitar a cotação do servidor e salvar o valor no arquivo cotacao.txt.
